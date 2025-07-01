@@ -23,7 +23,7 @@ public class HomePage {
 	@FindBy(css = "a[class = 'Navbar_link__3Blki logout-link']")
 	WebElement signLink;
 
-	@FindBy(xpath = "//*[@id=\"username\"]/div/div[1]")
+	@FindBy(xpath = "//div[text() ='Select Username']")
 	WebElement usernameDropDownClick;
 
 	@FindBy(css = "input[id='react-select-2-input']")
